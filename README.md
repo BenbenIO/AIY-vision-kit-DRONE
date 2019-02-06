@@ -3,13 +3,13 @@ In this project, I studied and experimented the capabilities of the AIY vision k
 This small shield provides huge image processing capacity thanks to its Movidius unit. In addition to its small size and weight it is a very viable solution of AI on edge for small UAV both Cloud or Onboard application:
 
 <p align="center">
-  <img src="/images/advantages.PNG" width="300">
+  <img src="/images/advantages.PNG" width="500">
 </p>
 <p align="center">
-  <img src="/images/usecase.PNG" width="300">
+  <img src="/images/usecase.PNG" width="500">
 </p>
 
-A complet description of my work is available [HERE]()
+A complet description of my work is available [HERE](https://github.com/BenbenIO/AIY-vision-kit-DRONE/blob/master/AIY_test_presentation.pdf)
 
 I am currently working on 2 usecases:
 
