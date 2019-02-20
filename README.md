@@ -8,6 +8,9 @@ This small shield provides huge image processing capacity thanks to its Movidius
 <p align="center">
   <img src="/images/usecase.PNG" width="500">
 </p>
+<p align="center">
+  <img src="/images/cloud.PNG" width="500">
+</p>
 
 A complet description of my work is available [HERE](https://github.com/BenbenIO/AIY-vision-kit-DRONE/blob/master/AIY_test_presentation.pdf)
 
@@ -27,8 +30,12 @@ Facial recogniton use heavy computional algorithm and currently solve by two sol
 * full cloud: cheaper but may bring latency
 
 My idea is to use AIY kit to divide the task, I achieved face detection on board, and sent the cropped face to the cloud for recognition. 
+<p align="center">
+  <img src="/images/face_reco.PNG" width="500">
+</p>
 In this case, we save bandwidtch and minimize the latency but still using a small board such as Raspberry Zero.
 Current state:
+
 - [x] Face detection - Cropped face solution -Cloud
-- [ ] Face recogntion using facenet or OpenCV
+- [x] Face recogntion using facenet or OpenCV
 - [ ] U.A.V implementaion and face tracking
