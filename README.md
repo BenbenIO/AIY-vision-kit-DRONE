@@ -21,6 +21,7 @@ Implementing an on-board crack detection-classification system, and integrate th
 Current state:
 - [x] Crack detection classifier
 - [ ] U.A.V implementaion
+
 I used [this data](https://data.mendeley.com/datasets/5y9wdsg2zt/1) for training a MobileNet V1 (160X160, 0.5) to classify crack image.
 On [this youtube link](https://www.youtube.com/watch?v=e4FoHp6COhM)you can see a video of the implemented solution.
 
@@ -33,7 +34,8 @@ My idea is to use AIY kit to divide the task, I achieved face detection on board
 <p align="center">
   <img src="/images/face_reco.PNG" width="500">
 </p>
-In this case, we save bandwidtch and minimize the latency but still using a small board such as Raspberry Zero.
+In this case, we save bandwidtch and minimize the latency but still using a small board such as Raspberry Zero. You can see a demonstration on [this youtube link](https://youtu.be/c9JQTAcH2Pc).
+
 Current state:
 
 - [x] Face detection - Cropped face solution -Cloud
